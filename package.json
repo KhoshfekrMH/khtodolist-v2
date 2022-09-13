@@ -1,0 +1,24 @@
+{
+  "name": "khtodolist-v2",
+  "version": "1.0.0",
+  "description": "khoshfekr to-do list project with mongoDB and CRUD",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhoshfekrMH/khtodolist-v2.git"
+  },
+  "author": "Khoshfekr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KhoshfekrMH/khtodolist-v2/issues"
+  },
+  "homepage": "https://github.com/KhoshfekrMH/khtodolist-v2#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.0"
+  }
+}
