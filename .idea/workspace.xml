@@ -4,8 +4,7 @@
     <list default="true" id="399b7336-05e3-4a3d-8eb8-bf473ad79dcb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/list.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/list.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +78,7 @@
       <updated>1663060155508</updated>
       <workItem from="1663060156901" duration="1464000" />
       <workItem from="1663138844579" duration="1997000" />
-      <workItem from="1663140887761" duration="3360000" />
+      <workItem from="1663140887761" duration="5136000" />
     </task>
     <task id="LOCAL-00001" summary="first Installations such as a npm , expressJs , bodyParser , mongoose and nodemon">
       <created>1663061256067</created>
@@ -95,7 +94,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663140958034</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="now we can see items from mongoDB in our to-do list">
+      <created>1663144790470</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663144790470</updated>
+    </task>
+    <task id="LOCAL-00004" summary="create function added to our nodeJs, and now we can send an item to our collection as a task">
+      <created>1663145057836</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663145057836</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +128,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first Installations such as a npm , expressJs , bodyParser , mongoose and nodemon" />
     <MESSAGE value="and now mongoose connected to app.js and todolistDB created" />
-    <option name="LAST_COMMIT_MESSAGE" value="and now mongoose connected to app.js and todolistDB created" />
+    <MESSAGE value="now we can see items from mongoDB in our to-do list" />
+    <MESSAGE value="create function added to our nodeJs, and now we can send an item to our collection as a task" />
+    <option name="LAST_COMMIT_MESSAGE" value="create function added to our nodeJs, and now we can send an item to our collection as a task" />
   </component>
 </project>
