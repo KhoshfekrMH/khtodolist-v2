@@ -33,14 +33,22 @@ const item3 = new Item({
   name: "<-- Hit this to delete an item."
 });
 
-const defaultItem = [item1, item2, item3];
+const defaultItems = [item1, item2, item3];
+
+const listSchema = {
+  name: String,
+  items: [itemSchema]
+};
+
+const List = mongoose.model("List", listSchema);
+
 
 app.get("/", function(req, res) {
 
   Item.find({}, function (err, foundItem) {
     if(foundItem.length === 0){
 
-      Item.insertMany(defaultItem, function (err) {
+      Item.insertMany(defaultItems, function (err) {
         if(err){
           console.log(err);
         } else {
@@ -79,9 +87,25 @@ app.post("/delete", function (req,res){
     }
   })
 });
+/*res.render("list", {listTitle: "Work List", newListItems: workItems});*/
+app.get("/:customListName", function(req,res){
+  const listName = req.params.customListName;
 
-app.get("/work", function(req,res){
-  res.render("list", {listTitle: "Work List", newListItems: workItems});
+
+  List.findOne({name: listName}, function (err, foundList) {
+    if(!err){
+      if(!foundList){
+        const list = new List ({
+          name: listName,
+          items: defaultItems
+        });
+        list.save();
+        res.redirect("/" + "customListName");
+      } else {
+        res.render("list", {listTitle: listName, newListItems: foundList})
+      }
+    }
+  });
 });
 
 app.get("/about", function(req, res){
