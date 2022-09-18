@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="399b7336-05e3-4a3d-8eb8-bf473ad79dcb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8e7283d1-632e-4c43-8bb2-20985ecbb76d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8e7283d1-632e-4c43-8bb2-20985ecbb76d.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/list.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/list.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,8 @@
       <workItem from="1663138844579" duration="1997000" />
       <workItem from="1663140887761" duration="6245000" />
       <workItem from="1663409758891" duration="1220000" />
-      <workItem from="1663419108269" duration="679000" />
+      <workItem from="1663419108269" duration="1749000" />
+      <workItem from="1663515449665" duration="6044000" />
     </task>
     <task id="LOCAL-00001" summary="first Installations such as a npm , expressJs , bodyParser , mongoose and nodemon">
       <created>1663061256067</created>
@@ -116,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663146615867</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="for users can add new page to do list by searching other routes and send it's title to todolistDB">
+      <created>1663420059396</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663420059396</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +148,7 @@
     <MESSAGE value="now we can see items from mongoDB in our to-do list" />
     <MESSAGE value="create function added to our nodeJs, and now we can send an item to our collection as a task" />
     <MESSAGE value="by findByIdAndRemove we can delete task by id from mongoDB dataBase" />
-    <option name="LAST_COMMIT_MESSAGE" value="by findByIdAndRemove we can delete task by id from mongoDB dataBase" />
+    <MESSAGE value="for users can add new page to do list by searching other routes and send it's title to todolistDB" />
+    <option name="LAST_COMMIT_MESSAGE" value="for users can add new page to do list by searching other routes and send it's title to todolistDB" />
   </component>
 </project>

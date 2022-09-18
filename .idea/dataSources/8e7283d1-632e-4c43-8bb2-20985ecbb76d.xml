@@ -12,77 +12,38 @@
     <schema id="7" parent="1" name="test">
       <Current>1</Current>
     </schema>
-    <schema id="8" parent="1" name="todolistDB"/>
-    <table id="9" parent="7" name="products"/>
-    <table id="10" parent="8" name="items"/>
-    <table id="11" parent="8" name="lists"/>
-    <column id="12" parent="9" name="_id">
+    <table id="8" parent="7" name="products"/>
+    <column id="9" parent="8" name="_id">
       <DataType>Int32|4s</DataType>
       <Position>1</Position>
     </column>
-    <column id="13" parent="9" name="name">
+    <column id="10" parent="8" name="name">
       <DataType>String|12s</DataType>
       <Position>2</Position>
     </column>
-    <column id="14" parent="9" name="price">
+    <column id="11" parent="8" name="price">
       <DataType>Int32|4s</DataType>
       <Position>3</Position>
     </column>
-    <column id="15" parent="9" name="reviews">
+    <column id="12" parent="8" name="reviews">
       <DataType>list|4999545s</DataType>
       <Position>4</Position>
     </column>
-    <column id="16" parent="9" name="reviews.authourName">
+    <column id="13" parent="8" name="reviews.authourName">
       <DataType>String|12s</DataType>
       <Position>5</Position>
     </column>
-    <column id="17" parent="9" name="reviews.comment">
+    <column id="14" parent="8" name="reviews.comment">
       <DataType>String|12s</DataType>
       <Position>6</Position>
     </column>
-    <column id="18" parent="9" name="reviews.rating">
+    <column id="15" parent="8" name="reviews.rating">
       <DataType>Int32|4s</DataType>
       <Position>7</Position>
     </column>
-    <column id="19" parent="9" name="stoke">
+    <column id="16" parent="8" name="stoke">
       <DataType>Int32|4s</DataType>
       <Position>8</Position>
-    </column>
-    <column id="20" parent="10" name="_id">
-      <DataType>ObjectId|12s</DataType>
-      <Position>1</Position>
-    </column>
-    <column id="21" parent="10" name="__v">
-      <DataType>Int32|4s</DataType>
-      <Position>1</Position>
-    </column>
-    <column id="22" parent="10" name="name">
-      <DataType>String|12s</DataType>
-      <Position>1</Position>
-    </column>
-    <column id="23" parent="11" name="_id">
-      <DataType>ObjectId|12s</DataType>
-      <Position>1</Position>
-    </column>
-    <column id="24" parent="11" name="items">
-      <DataType>list|4999545s</DataType>
-      <Position>1</Position>
-    </column>
-    <column id="25" parent="11" name="__v">
-      <DataType>Int32|4s</DataType>
-      <Position>2</Position>
-    </column>
-    <column id="26" parent="11" name="items._id">
-      <DataType>ObjectId|12s</DataType>
-      <Position>2</Position>
-    </column>
-    <column id="27" parent="11" name="items.name">
-      <DataType>String|12s</DataType>
-      <Position>3</Position>
-    </column>
-    <column id="28" parent="11" name="name">
-      <DataType>String|12s</DataType>
-      <Position>4</Position>
     </column>
   </database-model>
 </dataSource>
