@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="399b7336-05e3-4a3d-8eb8-bf473ad79dcb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +31,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -93,7 +94,7 @@
       <workItem from="1663744338451" duration="59000" />
       <workItem from="1663744423974" duration="2000000" />
       <workItem from="1663782302581" duration="641000" />
-      <workItem from="1663786767684" duration="1905000" />
+      <workItem from="1663786767684" duration="2516000" />
     </task>
     <task id="LOCAL-00001" summary="first Installations such as a npm , expressJs , bodyParser , mongoose and nodemon">
       <created>1663061256067</created>
@@ -158,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663788119365</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="init heroku">
+      <created>1663788703198</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663788703198</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +193,8 @@
     <MESSAGE value="big update for delete and now users can make new todolist by express route with own tasks" />
     <MESSAGE value="Lodash installed and express route now will be standard in capitalize way" />
     <MESSAGE value="mongoDB atlas" />
-    <option name="LAST_COMMIT_MESSAGE" value="mongoDB atlas" />
+    <MESSAGE value="init heroku" />
+    <option name="LAST_COMMIT_MESSAGE" value="init heroku" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
