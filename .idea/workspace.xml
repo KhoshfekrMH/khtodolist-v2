@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="399b7336-05e3-4a3d-8eb8-bf473ad79dcb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8e7283d1-632e-4c43-8bb2-20985ecbb76d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8e7283d1-632e-4c43-8bb2-20985ecbb76d/storage_v2/_src_/schema/todolistDB.YqUFPQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +84,20 @@
       <workItem from="1663140887761" duration="6245000" />
       <workItem from="1663409758891" duration="1220000" />
       <workItem from="1663419108269" duration="1749000" />
-      <workItem from="1663515449665" duration="6347000" />
+      <workItem from="1663515449665" duration="6791000" />
+      <workItem from="1663592459517" duration="163000" />
+      <workItem from="1663592875482" duration="3149000" />
+      <workItem from="1663702872758" duration="915000" />
+      <workItem from="1663703888991" duration="46000" />
+      <workItem from="1663703959906" duration="109000" />
+      <workItem from="1663705682242" duration="157000" />
+      <workItem from="1663705873721" duration="239000" />
+      <workItem from="1663743666448" duration="370000" />
+      <workItem from="1663744109067" duration="205000" />
+      <workItem from="1663744338451" duration="59000" />
+      <workItem from="1663744423974" duration="2000000" />
+      <workItem from="1663782302581" duration="641000" />
+      <workItem from="1663786767684" duration="1295000" />
     </task>
     <task id="LOCAL-00001" summary="first Installations such as a npm , expressJs , bodyParser , mongoose and nodemon">
       <created>1663061256067</created>
@@ -131,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663522204826</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Lodash installed and express route now will be standard in capitalize way">
+      <created>1663522714991</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663522714991</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +180,7 @@
     <MESSAGE value="by findByIdAndRemove we can delete task by id from mongoDB dataBase" />
     <MESSAGE value="for users can add new page to do list by searching other routes and send it's title to todolistDB" />
     <MESSAGE value="big update for delete and now users can make new todolist by express route with own tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="big update for delete and now users can make new todolist by express route with own tasks" />
+    <MESSAGE value="Lodash installed and express route now will be standard in capitalize way" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lodash installed and express route now will be standard in capitalize way" />
   </component>
 </project>

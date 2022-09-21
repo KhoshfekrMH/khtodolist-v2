@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="IU-222.4167.29">
-    <data-source name="@localhost" uuid="8e7283d1-632e-4c43-8bb2-20985ecbb76d">
-      <database-info product="Mongo DB" version="6.0.1" jdbc-version="4.2" driver-name="MongoDB JDBC Driver" driver-version="1.15" dbms="MONGO" exact-version="6.0.1" exact-driver-version="1.15" />
+    <data-source name="@cluster0.enpd2tj.mongodb.net" uuid="171179d2-07a5-465f-b0e0-24d5621829bc">
+      <database-info product="Mongo DB" version="5.0.12" jdbc-version="4.2" driver-name="MongoDB JDBC Driver" driver-version="1.15" dbms="MONGO" exact-version="5.0.12" exact-driver-version="1.15" />
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
       <secret-storage>master_key</secret-storage>
+      <user-name>admin-Khoshfekr</user-name>
       <schema-mapping>
         <introspection-scope>
           <node kind="schema">
